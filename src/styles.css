@@ -1,0 +1,36 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.code {
+  width: 600px;
+  max-height: 400px;
+  padding: 10px;
+  background: #ebebeb;
+  margin: 0 auto;
+  overflow: auto;
+  text-align: left;
+}
+
+.button {
+  cursor: pointer;
+  padding: 10px;
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: rgb(9, 113, 241);
+  color: rgb(255, 255, 255);
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    rgb(9, 113, 241);
+}
